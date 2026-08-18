@@ -1,0 +1,13 @@
+[user]
+    name = youyue66
+    email = 148748804+youyue66@users.noreply.github.com
+
+[core]
+    editor = vim
+    autocrlf = false
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = false
