@@ -11,3 +11,4 @@
 
 [pull]
     rebase = false
+\n[fetch]\n    prune = true
