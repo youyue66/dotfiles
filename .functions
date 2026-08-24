@@ -24,3 +24,4 @@ extract() {
     fi
 }
 \n# Quick HTTP server\nserve() {\n    python3 -m http.server ${1:-8000}\n}
+\n# Simple calculator\ncalc() {\n    python3 -c "from math import *; print($*)"\n}
