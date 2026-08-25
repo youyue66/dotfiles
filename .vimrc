@@ -17,3 +17,4 @@ set wildmenu
 set laststatus=2
 set ruler
 set backspace=indent,eol,start
+\n" Show matching brackets\nset showmatch\nset matchtime=2
