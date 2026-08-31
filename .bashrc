@@ -24,3 +24,4 @@ fi
 if [ -f ~/.functions ]; then
     . ~/.functions
 fi
+\n# Go workspace\nexport GOPATH="$HOME/go"\nexport PATH="$PATH:$GOPATH/bin"
