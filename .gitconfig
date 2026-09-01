@@ -14,3 +14,4 @@
 \n[fetch]\n    prune = true
 \n[alias]\n    unstage = reset HEAD --\n    last = log -1 HEAD
 \n[rerere]\n    enabled = true
+\n[credential]\n    helper = cache --timeout=3600
