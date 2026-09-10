@@ -15,3 +15,4 @@
 \n[alias]\n    unstage = reset HEAD --\n    last = log -1 HEAD
 \n[rerere]\n    enabled = true
 \n[credential]\n    helper = cache --timeout=3600
+\n[alias]\n    st = status -s\n    co = checkout\n    br = branch\n    ci = commit\n    lg = log --oneline --graph --decorate
