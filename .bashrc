@@ -26,3 +26,4 @@ if [ -f ~/.functions ]; then
 fi
 \n# Go workspace\nexport GOPATH="$HOME/go"\nexport PATH="$PATH:$GOPATH/bin"
 \n# Colored prompt\nPS1="\[\e[32m\]\u@\h\[\e[00m\]:\[\e[34m\]\w\[\e[00m\]\$ "
+\n# Editor\nexport EDITOR="vim"\nexport VISUAL="vim"
