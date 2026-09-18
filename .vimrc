@@ -19,3 +19,4 @@ set ruler
 set backspace=indent,eol,start
 \n" Show matching brackets\nset showmatch\nset matchtime=2
 \n" Show command in status bar\nset showcmd
+\n" Split window navigation\nnnoremap <C-h> <C-w>h\nnnoremap <C-j> <C-w>j\nnnoremap <C-k> <C-w>k\nnnoremap <C-l> <C-w>l
