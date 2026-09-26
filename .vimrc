@@ -21,3 +21,4 @@ set backspace=indent,eol,start
 \n" Show command in status bar\nset showcmd
 \n" Split window navigation\nnnoremap <C-h> <C-w>h\nnnoremap <C-j> <C-w>j\nnnoremap <C-k> <C-w>k\nnnoremap <C-l> <C-w>l
 \n" Enable spell check\nset spell\nset spelllang=en
+\n" Auto-change directory to file location\nset autochdir
