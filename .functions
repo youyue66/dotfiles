@@ -28,3 +28,4 @@ extract() {
 \n# Get weather\nweather() {\n    curl -s "wttr.in/${1:-Beijing}"\n}
 \n# Generate random password\ngenpass() {\n    openssl rand -base64 ${1:-16}\n}
 \n# Count files by extension\nfilecount() {\n    find . -type f | sed "s/.*\\.//" | sort | uniq -c | sort -rn\n}
+\n# Quick git log with stats\nglog() {\n    git log --oneline --stat $1 | less\n}
