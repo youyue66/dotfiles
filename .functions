@@ -30,3 +30,4 @@ extract() {
 \n# Count files by extension\nfilecount() {\n    find . -type f | sed "s/.*\\.//" | sort | uniq -c | sort -rn\n}
 \n# Quick git log with stats\nglog() {\n    git log --oneline --stat $1 | less\n}
 \n# Encode/decode base64\nb64enc() { echo -n "$1" | base64 }\nb64dec() { echo -n "$1" | base64 -d }
+\n# Extract column from CSV\ncol() {\n    awk -F, "{print \$$1}" "$2"\n}
