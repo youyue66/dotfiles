@@ -18,3 +18,4 @@
 \n[alias]\n    st = status -s\n    co = checkout\n    br = branch\n    ci = commit\n    lg = log --oneline --graph --decorate
 \n[color]\n    ui = auto
 \n[merge]\n    tool = vimdiff\n[mergetool]\n    prompt = false
+\n[diff]\n    tool = vimdiff\n[difftool]\n    prompt = false
