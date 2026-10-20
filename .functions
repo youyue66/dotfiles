@@ -32,3 +32,4 @@ extract() {
 \n# Encode/decode base64\nb64enc() { echo -n "$1" | base64 }\nb64dec() { echo -n "$1" | base64 -d }
 \n# Extract column from CSV\ncol() {\n    awk -F, "{print \$$1}" "$2"\n}
 \n# Show top 10 largest files in current directory\nbigfiles() {\n    find . -type f -exec du -h {} + | sort -rh | head -10\n}
+\n# Compress directory\ntarz() {\n    tar -czf "${1%/}.tar.gz" "$1"\n}
